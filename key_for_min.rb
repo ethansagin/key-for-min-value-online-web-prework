@@ -13,7 +13,8 @@ def key_for_min_value(name_hash)
     end
   end
   name_hash.each do |key, value| 
-    answer = key if value == value_arr.join()
+    if value == value_arr.join()
+      return key
+    end
   end
-  answer
 end
