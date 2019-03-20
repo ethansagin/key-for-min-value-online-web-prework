@@ -21,6 +21,7 @@ def key_for_min_value(name_hash)
   name_hash.select do |key, value| 
     if value == value_arr
       key
+    end
   end
  end
 end
