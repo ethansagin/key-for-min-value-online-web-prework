@@ -18,10 +18,8 @@ def key_for_min_value(name_hash)
       value_arr
     end
   end
-  name_hash. do |key, value| 
-    if value == value_arr.join()
-      key
-    end
+  name_hash.select do |key, value| 
+    value == value_arr.join()
   end
  end
 end
