@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
       value_arr.shift
     else
       value_arr.slice(1, 1)
+      value_arr
     end
   end
   name_hash.each do |key, value| 
