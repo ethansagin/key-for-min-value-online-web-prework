@@ -19,7 +19,7 @@ def key_for_min_value(name_hash)
     end
   end
   name_hash.select do |key, value| 
-    if value.split == value_arr
+    if value == value_arr.join
       key
     end
   end
