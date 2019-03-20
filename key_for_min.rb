@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
     if value_arr[0] > value_arr[1]
       value_arr.shift
     else
-      value_arr.slice(1, 1)
+      value_arr.delete_at(1)
       value_arr
     end
   end
