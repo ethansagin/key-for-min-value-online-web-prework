@@ -20,7 +20,7 @@ def key_for_min_value(name_hash)
   end
   binding.pry
   name_hash.select do |key, value| 
-    if value == value_arr
+    if value.split == value_arr
       key
     end
   end
