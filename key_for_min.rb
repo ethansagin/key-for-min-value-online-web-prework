@@ -10,5 +10,9 @@ def key_for_min_value(name_hash)
       value_arr.splice(1, 1)
     end
   end
-  value_arr
+  name_hash.each do |key, value| {
+    if value == value_arr.join()
+      return key
+    end
+  }
 end
